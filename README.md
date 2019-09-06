@@ -12,3 +12,5 @@ Want to go on an **adventure**? (in a non-creepy way, of course) Well... glad yo
 * HTML
 ## Deployed Link
 https://daveyjonezz.github.io/clicky-game/
+
+![picture](clicky/public/images/Gunter.png)
