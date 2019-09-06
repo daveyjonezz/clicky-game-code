@@ -30,12 +30,10 @@ class App extends Component {
     return true;
   }
 
-  youWon = () => {
-    if (this.state.score > this.state.highscore) {
-      this.setState({highscore: this.state.score}, function() {
+  gameWon = () => {
+      this.setState({highscore: 12}, function() {
         console.log(this.state.highscore);
-      });
-    }
+      })
     this.state.friends.forEach(friends => {
       friends.clicked = false;
     });
@@ -51,14 +49,16 @@ class App extends Component {
       if(friend.id === id){
         if(friend.clicked === false){
           friend.clicked = true
+          if (this.state.score === 11) {
+            console.log("winner winner")
+            this.gameWon();
+          } else {
           this.setState({score : this.state.score + 1}, function(){
             console.log(this.state.score);
+            this.setState({mid: `Oooh keep clicking!!`});
+            this.setState({colorStyle: "text-info"})
           });
-          this.setState({mid: `Oooh keep clicking!!`});
-          this.setState({colorStyle: "text-success"})
-          if(this.state.score === 12){
-            this.youWon()
-          }
+        }
         } else {
           this.gameOver()
         }
@@ -71,7 +71,6 @@ class App extends Component {
     const newArray = this.state.friends.sort(()=> Math.random()-0.5)
     this.setState({friends: newArray})
   };
-
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     console.log(this.state.score,"SCORE")
