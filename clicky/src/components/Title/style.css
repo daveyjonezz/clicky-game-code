@@ -1,0 +1,29 @@
+
+#icekingheader{
+  height: 150px;
+}
+
+#icekingheader:hover{
+  transform: scale(1.1)
+}
+
+#press {
+  color: darkblue;
+  font-size: 10px
+}
+
+.jumbotron{
+  background-image: url("/images/AT\ logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-position: bottom;
+  background-color: lightblue;
+  min-height: 200px
+}
+
+@media only screen and (max-width:991px) {
+  #press, #icekingheader {
+  display: none;
+  }
+  }

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "BananaMan",
+    "image": "/images/BananaMan.png",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "BMO",
+    "image": "/images/BMO.png",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "CB",
+    "image": "/images/CB.png",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Finn",
+    "image": "/images/Finn.png",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Gunter",
+    "image": "/images/Gunter.png",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Flame King",
+    "image": "/images/FlameKing.png",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Ice King",
+    "image": "/images/IceKing.png",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Jake",
+    "image": "/images/Jake.png",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "LSP",
+    "image": "/images/LSP.png",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "Marceline",
+    "image": "/images/Marceline.png",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "PB",
+    "image": "/images/PB.png",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "PeppermintButler",
+    "image": "/images/PeppermintButler.png",
+    "clicked": false
+  }
+]

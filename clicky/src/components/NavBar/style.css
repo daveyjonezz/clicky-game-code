@@ -1,0 +1,50 @@
+ul {
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+  }
+  li { 
+    display:inline-block;
+    width:33%;
+    margin:0;
+    padding:0;
+  }
+  h1, h4 {
+    color: white
+  }
+  .add-margin {
+    margin-top: 10px
+  }
+  
+  .navbar{
+    background-color: darkblue;
+  }
+  
+  #icekingheader{
+    height: 150px;
+  }
+  
+  #icekingheader:hover{
+    transform: scale(1.1)
+  }
+  
+  p {
+    color: darkblue;
+  }
+  
+  .jumbotron{
+    background-image: url("/images/AT\ logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position: bottom;
+    background-color: lightblue;
+    min-height: 200px
+  }
+  
+  @media only screen and (max-width:991px) {
+    p, #icekingheader {
+    display: none;
+    }
+    }
